@@ -39,24 +39,22 @@ object Parser
         })
         return names
     }
-   
-    def getEdges(names: Array[String], line: String): ArrayBuffer[Edge] = 
+
+    def updateNameStats(name: String, nameStats: HashMap[String, Int]): HashMap[String, Int] = 
     {
-        val nameStats: HashMap[String, Int] = new HashMap[String, Int]
-        for (name <- names)
+        if (nameStats.contains(name))
         {
-            if (line.contains(name))
-            {
-                if (nameStats.contains(name))
-                {
-                    nameStats(name) += 1
-                }
-                else
-                {
-                    nameStats(name) = 1
-                }
-            }
+            nameStats(name) += 1
         }
+        else
+        {
+            nameStats(name) = 1
+        }
+        return nameStats
+    }
+
+    def createEdgesFromNameStats(nameStats: HashMap[String, Int]): ArrayBuffer[Edge] = 
+    {
         val keys: Array[String] = nameStats.keys.toArray
         val edges: ArrayBuffer[Edge] = new ArrayBuffer[Edge]
         for (i <- keys.indices)
@@ -81,6 +79,65 @@ object Parser
         }
         return edges
     }
+   
+    def getEdges(names: Array[String], line: String): ArrayBuffer[Edge] = 
+    {
+        var nameStats: HashMap[String, Int] = new HashMap[String, Int]
+        for (name <- names)
+        {
+            if (line.contains(name))
+            {
+                nameStats = updateNameStats(name, nameStats)
+            }
+        }
+        
+        val edges: ArrayBuffer[Edge] = createEdgesFromNameStats(nameStats)
+        return edges
+    }
+
+    def getEdges(names: Array[String], aliases: HashMap[String, Array[String]], line: String): ArrayBuffer[Edge] = 
+    {
+        var nameStats: HashMap[String, Int] = new HashMap[String, Int]
+        for (name <- names)
+        {
+            if (aliases.contains(name))
+            {
+                val alternateNames: Array[String] = aliases(name)
+                for (alternateName <- alternateNames)
+                {
+                    if (line.contains(alternateName))
+                    {
+                        nameStats = updateNameStats(name, nameStats) 
+                    }
+                }
+            }
+            else
+            {
+                if (line.contains(name))
+                {
+                    nameStats = updateNameStats(name, nameStats) 
+                }
+            }
+        }
+        val edges: ArrayBuffer[Edge] = createEdgesFromNameStats(nameStats)
+        return edges
+    }
+
+    def readAliases(aliasesFileName: String): HashMap[String, Array[String]] = 
+    {
+        assert(Files.exists(Paths.get(aliasesFileName)))
+        val aliases: HashMap[String, Array[String]] = new HashMap[String, Array[String]]
+        for (line <- Source.fromFile(aliasesFileName).getLines)
+        {
+            val a: Array[String] = line.split(":")
+            val name: String = a.head
+            val alternateNames: ArrayBuffer[String] = a.last.split(",").to[ArrayBuffer]
+            alternateNames.append(name)
+            aliases(name) = alternateNames.toArray
+        }
+        return aliases
+    }
+
     def main(args: Array[String]): Unit = 
     {
         val inputFileName: String = "../data/characters.txt"
@@ -91,6 +148,8 @@ object Parser
             writer.write(name + "\n")
         }
         writer.close()
+
+        val aliases: HashMap[String, Array[String]] = readAliases("aliases.txt")
         
         val line: String = Source.fromFile("a.txt").getLines.toArray.head
         val edges: ArrayBuffer[Edge] = getEdges(names, line)

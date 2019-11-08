@@ -26,6 +26,19 @@ class Edge
     {
         return Array(this.left, this.right, this.weight.toString).mkString(";")
     }
+
+    override def equals(other: Any) = other match 
+    {
+        case that: Edge => this.left == that.left && this.right == that.right
+        case _ => false
+    }
+
+    override def hashCode: Int = 
+    {
+        var result: Int = this.left.hashCode
+        result += 31 * result + this.right.hashCode
+        return result
+    }
 }
 
 object Parser
@@ -37,6 +50,14 @@ object Parser
             val a: Array[String] = line.split("\\t")
             a.head
         })
+        
+        val writer = new PrintWriter(new File("names.txt"))
+        for (name <- names)
+        {
+            writer.write(name + "\n")
+        }
+        writer.close()
+
         return names
     }
 
@@ -142,22 +163,44 @@ object Parser
     {
         val inputFileName: String = "../data/characters.txt"
         val names: Array[String] = readNames(inputFileName)
-        val writer = new PrintWriter(new File("names.txt"))
-        for (name <- names)
+        val aliases: HashMap[String, Array[String]] = readAliases("aliases.txt")
+        val corpusFileName: String = "../data/red_chamber_dream.txt"
+        var counter: Int = 0
+        val interval: Int = 100
+        val allEdges: HashMap[(String, String), Double] = new HashMap[(String, String), Double]
+        breakable
         {
-            writer.write(name + "\n")
+            for (line <- Source.fromFile(corpusFileName).getLines)
+            {
+                counter += 1
+                if (counter % interval == 0)
+                {
+                    println("Number of lines processed = " + counter)
+                }
+                val edges: ArrayBuffer[Edge] = getEdges(names, aliases, line)
+                for (edge <- edges)
+                {
+                    if (allEdges.contains((edge.left, edge.right)))
+                    {
+                        allEdges((edge.left, edge.right)) += edge.weight
+                    }
+                    else
+                    {
+                        allEdges((edge.left, edge.right)) = edge.weight
+                    }
+                }
+                if (false && counter > 1000)
+                {
+                    break
+                }
+            }
+        }
+        val writer = new PrintWriter(new File("edges.csv"))
+        val allEdgesSorted: Array[((String, String), Double)] = allEdges.to[Array].sortBy(ele => ele._2).reverse
+        for (((left, right), weight) <- allEdgesSorted)
+        {
+            writer.write(left + ";" + right + ";" + weight.toString + "\n")
         }
         writer.close()
-
-        val aliases: HashMap[String, Array[String]] = readAliases("aliases.txt")
-        
-        val line: String = Source.fromFile("a.txt").getLines.toArray.head
-        val edges: ArrayBuffer[Edge] = getEdges(names, line)
-        val writer1 = new PrintWriter(new File("edges.csv"))
-        for (edge <- edges)
-        {
-            writer1.write(edge + "\n")
-        }
-        writer1.close()
     }
 }

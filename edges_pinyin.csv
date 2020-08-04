@@ -15,12 +15,12 @@ Wang Furen;Xue Baochai;154.0
 Shi Taijun;Xi Ren;144.0
 Ping Er;Wang Xifeng;142.0
 Shi Taijun;Jia Zheng;135.0
-Li Wan;Jia Baoyu;131.0
+Li Wan;Jia Baoyu;133.0
+Shi Taijun;Li Wan;127.0
 Lin Daiyu;Wang Xifeng;126.0
 Shi Taijun;Jia Lian;124.0
 Wang Xifeng;Jia Lian;123.0
 Shi Xiangyun;Lin Daiyu;121.0
-Shi Taijun;Li Wan;120.0
 Wang Xifeng;Xue Baochai;119.0
 Shi Taijun;Xue Yima;119.0
 Lin Daiyu;Wang Furen;118.0
@@ -28,9 +28,9 @@ Xue Baochai;Xi Ren;117.0
 Shi Taijun;Xing Furen;114.0
 Wang Furen;Jia Zheng;112.0
 Lin Daiyu;Xi Ren;112.0
-Li Wan;Xue Baochai;108.0
+Li Wan;Wang Xifeng;112.0
+Li Wan;Xue Baochai;111.0
 Wang Furen;Xing Furen;108.0
-Li Wan;Wang Xifeng;108.0
 Jia Baoyu;Jia Tanchun;106.0
 Shi Taijun;Yuan Yang;103.0
 Xue Yima;Xue Baochai;102.0
@@ -40,9 +40,10 @@ Wang Furen;Xi Ren;100.0
 Lin Daiyu;Zi Juan;100.0
 Wang Furen;Xue Yima;98.0
 Xue Yima;Jia Baoyu;95.0
+Li Wan;Lin Daiyu;95.0
 Wang Xifeng;Xing Furen;92.0
 Shi Taijun;Shi Xiangyun;91.0
-Li Wan;Lin Daiyu;91.0
+Li Wan;Jia Tanchun;91.0
 Shi Xiangyun;Xue Baochai;90.0
 Shi Taijun;Ping Er;90.0
 Shi Taijun;Jia Tanchun;90.0
@@ -51,9 +52,8 @@ Jia Baoyu;She Yue;90.0
 Lin Daiyu;Jia Tanchun;89.0
 Zi Juan;Jia Baoyu;89.0
 Xue Baochai;Jia Tanchun;88.0
-Li Wan;Jia Tanchun;88.0
 Jia Baoyu;Jia Lian;86.0
-Li Wan;Wang Furen;82.0
+Li Wan;Wang Furen;86.0
 Wang Furen;Jia Lian;81.0
 Jia Zheng;Jia Lian;79.0
 Qing Wen;Xi Ren;78.0
@@ -84,9 +84,9 @@ Wang Furen;Jia She;58.0
 Jia Baoyu;Jia Xichun;57.0
 You Shi;Wang Furen;57.0
 Shi Taijun;Jia Rong;57.0
+Ping Er;Li Wan;56.0
 Jia Lan;Jia Baoyu;55.0
 You Shi;Jia Baoyu;55.0
-Ping Er;Li Wan;55.0
 Jia Baoyu;Jia Yingchun;55.0
 Wang Furen;Jia Tanchun;55.0
 Shi Taijun;Zi Juan;54.0
@@ -98,8 +98,8 @@ Wang Xifeng;Jia Rong;53.0
 You Shi;Jia Zhen;53.0
 Jia Zheng;Jia Zhen;53.0
 Xue Baochai;Xiang Ling;53.0
+Shi Xiangyun;Li Wan;53.0
 Jia Lian;Jia She;52.0
-Shi Xiangyun;Li Wan;52.0
 Xue Baochai;Jia Xichun;51.0
 Shi Taijun;Jia Yingchun;51.0
 Xue Baochai;Jia Zheng;49.0
@@ -120,18 +120,18 @@ Shi Taijun;Qing Wen;45.0
 Lin Daiyu;Jia Yingchun;44.0
 Ping Er;Xue Baochai;44.0
 You Shi;Xing Furen;44.0
+Li Wan;Jia Xichun;44.0
 You Shi;Jia Rong;44.0
 Wang Xifeng;Jia Xichun;43.0
+You Shi;Li Wan;43.0
 Shi Xiangyun;Jia Tanchun;43.0
+Li Wan;Xi Ren;43.0
 Lin Daiyu;Jia Xichun;43.0
 Ying Er;Xue Baochai;43.0
 Jia Xichun;Jia Tanchun;42.0
 Wang Furen;Jia Xichun;42.0
-Li Wan;Xi Ren;42.0
-Li Wan;Jia Xichun;42.0
 Jia Zheng;Xing Furen;41.0
 Wang Xifeng;Jia Yingchun;41.0
-You Shi;Li Wan;41.0
 Jia Baoyu;Jia Rong;41.0
 Xue Baoqin;Jia Baoyu;41.0
 Jia Tanchun;Jia Yingchun;40.0
@@ -146,16 +146,18 @@ Xue Pan;Jia Baoyu;38.0
 Shi Taijun;Jia Huan;37.0
 Jia Yuanchun;Jia Baoyu;37.0
 Xing Furen;Yuan Yang;37.0
+Li Wan;Xing Furen;37.0
 Shi Xiangyun;Xi Ren;37.0
 Shi Xiangyun;Xue Baoqin;37.0
 Zi Juan;Xue Yan;37.0
 Jia Baoyu;Xue Yan;36.0
-Li Wan;Xing Furen;36.0
+Li Wan;Jia Yingchun;36.0
 Liu Laolao;Wang Xifeng;36.0
 Ping Er;Xing Furen;36.0
 Zhou Ruijiade;Wang Xifeng;35.0
 Jia Baoyu;Xiang Ling;35.0
 Jia Lian;Yuan Yang;35.0
+Li Wan;Xue Yima;35.0
 Xue Baochai;Jia Lian;35.0
 Jia Lian;Jia Rong;35.0
 Ping Er;Jia Tanchun;35.0
@@ -163,7 +165,6 @@ Shi Taijun;Jia Lan;34.0
 Xi Ren;Jia Zheng;34.0
 Xue Baochai;Yuan Yang;34.0
 Qin Zhong;Jia Baoyu;34.0
-Li Wan;Xue Yima;34.0
 Xi Ren;Jia Tanchun;34.0
 Ying Er;Jia Baoyu;34.0
 Shi Taijun;Hu Po;34.0
@@ -173,7 +174,6 @@ Jia Lan;Jia Huan;34.0
 Shi Xiangyun;Wang Furen;34.0
 Jia Baoyu;Jia Yun;33.0
 Jia Xichun;Jia Yingchun;33.0
-Li Wan;Jia Yingchun;33.0
 Xue Yima;Xue Pan;33.0
 Shi Taijun;Xue Baoqin;33.0
 Zi Juan;Xue Baochai;33.0
@@ -217,15 +217,15 @@ Wang Furen;Zi Juan;26.0
 Fang Guan;Xi Ren;26.0
 Ming Yan;Jia Baoyu;26.0
 Qing Wen;Fang Guan;26.0
+Li Wan;Jia Lan;26.0
 Qing Wen;Wang Furen;26.0
+Li Wan;Yuan Yang;26.0
 Wang Xifeng;Jia Huan;26.0
 Jia Lan;Jia Zheng;26.0
 Wang Furen;Jia Qiaojie;25.0
 Shi Xiangyun;Jia Xichun;25.0
 Xue Baochai;She Yue;25.0
 Wang Xifeng;Xue Baoqin;25.0
-Li Wan;Jia Lan;25.0
-Li Wan;Yuan Yang;25.0
 Feng Er;Wang Xifeng;25.0
 Qing Wen;Xue Baochai;24.0
 Xue Baoqin;Jia Tanchun;24.0
@@ -269,6 +269,7 @@ Jia Lian;Lai Da;22.0
 You Shi;Jia Zheng;22.0
 Xue Baochai;Jia Huan;22.0
 Wang Furen;Hu Po;21.0
+Li Wan;Jia Lian;21.0
 You Erjie;Jia Lian;21.0
 Xue Baochai;Jia Zhen;21.0
 Liu Wuer;Jia Baoyu;21.0
@@ -280,6 +281,7 @@ Xue Yima;Jia Zheng;21.0
 Shi Taijun;Xing Xiuyan;21.0
 Jia Tanchun;Jia Zheng;21.0
 Zhou Ruijiade;Ping Er;21.0
+Li Wan;Jia Zheng;21.0
 Qing Wen;Wang Xifeng;21.0
 Xue Yima;Jia Yingchun;21.0
 Liu Laolao;Ping Er;21.0
@@ -289,7 +291,6 @@ Cai Yun;Wang Furen;21.0
 Miao Yu;Jia Baoyu;21.0
 Li Wan;Xing Xiuyan;20.0
 Xue Yima;Jia Tanchun;20.0
-Li Wan;Jia Lian;20.0
 Lin Daiyu;Ying Er;20.0
 Wang Xifeng;Xing Xiuyan;20.0
 You Shi;Ping Er;20.0
@@ -323,7 +324,6 @@ Xue Yima;Xue Ke;18.0
 Jia Xichun;Xing Furen;18.0
 Shi Xiangyun;Xing Xiuyan;18.0
 Jia Tanchun;Jia Huan;18.0
-Li Wan;Jia Zheng;18.0
 Shi Xiangyun;Xiang Ling;18.0
 Lin Daiyu;Jia Zhen;18.0
 Liu Laolao;Zhou Ruijiade;17.0
@@ -448,6 +448,7 @@ Xiao Hong;Ping Er;12.0
 Lin Daiyu;Fang Guan;12.0
 Xue Baochai;Jia Qiaojie;12.0
 Ping Er;Qiu Tong;12.0
+Qing Wen;Li Wan;12.0
 Zhou Rui;Xue Yima;12.0
 Li Wan;Lin Zhixiaojiade;12.0
 Si Qi;Jia Yingchun;12.0
@@ -482,7 +483,6 @@ Wang Xifeng;Ying Er;11.0
 Shi Taijun;Fang Guan;11.0
 Wang Xifeng;Qiu Tong;11.0
 You Shi;Jia Lan;11.0
-Qing Wen;Li Wan;11.0
 Wang Xifeng;Xue Pan;11.0
 Shi Taijun;Shui Rong;11.0
 Liu Laolao;Lin Daiyu;11.0
@@ -504,6 +504,7 @@ You Shi;Jia Yingchun;11.0
 Dai Shu;Jia Tanchun;11.0
 Jia Qiaojie;Jia Yun;11.0
 Jia Lan;Jia Lian;11.0
+Li Wan;She Yue;11.0
 Xing Furen;Xing Xiuyan;11.0
 You Erjie;Ping Er;11.0
 Shui Rong;Jia She;11.0
@@ -515,6 +516,7 @@ Shi Taijun;Lin Zhixiaojiade;11.0
 Jia Lan;Jia Rong;11.0
 Chun Yan;Qing Wen;11.0
 Xue Baochai;Xue Yan;11.0
+Lin Daiyu;Cui Lv;11.0
 Li Wan;Li Qi;11.0
 Shi Taijun;Jia Yucun;11.0
 Zhou Rui;Lin Daiyu;11.0
@@ -531,6 +533,7 @@ Jia Yingchun;Xiang Ling;10.0
 Ping Er;Jia Yingchun;10.0
 Wang Xifeng;Qiu Wen;10.0
 Hu Po;Xue Baochai;10.0
+Cui Lv;Jia Baoyu;10.0
 Liu Jiade;Jia Baoyu;10.0
 Xi Ren;Jia Yun;10.0
 Shi Taijun;Jin Chuan;10.0
@@ -562,7 +565,7 @@ Lin Zhixiaojiade;Jia Tanchun;10.0
 Shi Taijun;Xue Ke;10.0
 Cui Mo;Jia Baoyu;10.0
 Hu Po;Xing Furen;10.0
-Li Wan;She Yue;10.0
+Shi Xiangyun;Cui Lv;10.0
 Shi Xiangyun;Jia Lian;10.0
 Bao Chan;Xue Pan;10.0
 Xue Baochai;Zhao Yiniang;10.0
@@ -574,7 +577,6 @@ Shi Taijun;Yu Chuan;10.0
 Xue Baochai;Jin Chuan;10.0
 Fang Guan;Ou Guan;10.0
 Xue Baoqin;Xi Ren;10.0
-Lin Daiyu;Cui Lv;10.0
 Ping Er;Ying Er;10.0
 Jia Zhen;Yuan Yang;10.0
 Li Wen;Xing Xiuyan;10.0
@@ -582,6 +584,7 @@ Si Er;Qing Wen;10.0
 Xue Yima;Jia Huan;10.0
 Li Wen;Xue Baochai;10.0
 Qin Zhong;Jia Zhen;10.0
+Cai Yun;Li Wan;10.0
 Shi Taijun;Li Qi;10.0
 Jia Xichun;Jia She;10.0
 Xue Yima;Xing Xiuyan;10.0
@@ -606,7 +609,6 @@ Jia Zheng;She Yue;9.0
 Xue Yima;Jia Yuanchun;9.0
 Xi Ren;Jia Zhen;9.0
 Hu Po;Jia Xichun;9.0
-Cui Lv;Jia Baoyu;9.0
 Shi Taijun;Li Wen;9.0
 Lin Daiyu;Wang Ziteng;9.0
 Si Qi;Jia Tanchun;9.0
@@ -641,7 +643,6 @@ Lin Daiyu;Zhao Yiniang;9.0
 Jia Zhen;Jia Rongzhiqi;9.0
 Liu Laolao;Xue Baochai;9.0
 Ping Er;Jia Yun;9.0
-Shi Xiangyun;Cui Lv;9.0
 Ping Er;She Yue;9.0
 Lin Daiyu;Jin Chuan;9.0
 Xi Ren;Jin Chuan;9.0
@@ -657,7 +658,6 @@ Lai Wang;Wang Furen;9.0
 Jia Zheng;Jia Qin;9.0
 Fang Guan;Rui Guan;9.0
 Ping Er;Cai Yun;9.0
-Cai Yun;Li Wan;9.0
 Lin Zhixiao;Wang Furen;9.0
 Wang Ziteng;Xue Baochai;9.0
 Feng Er;Wang Furen;9.0
@@ -708,6 +708,7 @@ Li Qi;Wang Xifeng;8.0
 Lin Zhixiao;Jia Yun;8.0
 Liu Xianglian;Xue Pan;8.0
 Shi Taijun;Li Mama;8.0
+Li Wan;Xue Ke;8.0
 Liu Wuer;Xue Baochai;8.0
 Zhou Ruijiade;Ban Er;8.0
 Qing Wen;Jia Zheng;8.0
@@ -790,7 +791,6 @@ Cai Yun;Zhao Yiniang;7.0
 Yu Chuan;Xi Ren;7.0
 Zhou Ruijiade;Xi Ren;7.0
 Si Er;She Yue;7.0
-Li Wan;Xue Ke;7.0
 Li Gui;Jia Zheng;7.0
 Xi Ren;Xue Yan;7.0
 Cai Yun;Yu Chuan;7.0
@@ -837,6 +837,7 @@ Zi Juan;Xing Furen;6.0
 Jia Lan;Jia Qiaojie;6.0
 Jiang Yuhan;Xue Yima;6.0
 Li Shenniang;Xue Baochai;6.0
+Cui Lv;Xi Ren;6.0
 Wang Xifeng;Lai Dademuqin;6.0
 Cai Yun;Xing Furen;6.0
 Xiao Hong;Jia Qiaojie;6.0
@@ -950,6 +951,7 @@ Xiao Hong;Jia Lian;6.0
 Miao Yu;Xing Xiuyan;6.0
 Jia Jing;Jia Rong;6.0
 Li Wen;Jia Yingchun;6.0
+Xiao Hong;Li Wan;6.0
 Yu Chuan;Xue Yima;6.0
 Jia Huan;Jia Qiang;6.0
 Zhou Yiniang;Jia Baoyu;6.0
@@ -979,7 +981,6 @@ Cai Xia;Jia Huan;5.0
 Zhou Rui;You Shi;5.0
 Li Wen;Jia Tanchun;5.0
 Zhi Neng;Wang Xifeng;5.0
-Cui Lv;Xi Ren;5.0
 Si Qi;Ping Er;5.0
 Jiao Da;Jia Zhen;5.0
 Jia Rui;Jia Qiang;5.0
@@ -1135,7 +1136,6 @@ Ru Hua;Jia Baoyu;5.0
 Lin Daiyu;Liu Wuer;5.0
 Xue Yima;Xue Yan;5.0
 Bo Li;Fang Guan;5.0
-Xiao Hong;Li Wan;5.0
 Pei Feng;Jia Lian;5.0
 Lin Zhixiao;Lai Da;5.0
 Shi Xiangyun;She Yue;5.0
@@ -1174,6 +1174,7 @@ Lin Zhixiao;Yu Chuan;4.0
 Jia Baoyu;Jia Zhu;4.0
 Lin Ruhai;Lin Daiyu;4.0
 Shi Xiangyun;Miao Yu;4.0
+Li Wan;Jia Zhu;4.0
 Li Qi;Xing Furen;4.0
 You Shi;Cai Yun;4.0
 Wang Xifeng;Jia Ling;4.0
@@ -1260,6 +1261,7 @@ Li Wan;Lai Dademuqin;4.0
 Cui Mo;Jia Xichun;4.0
 Xue Baoqin;Jia Zhen;4.0
 Feng Er;Lin Daiyu;4.0
+Li Wan;Lai Wang;4.0
 Shi Taijun;Mei Hanlin;4.0
 Shi Xiangyun;Cai Yun;4.0
 Zhou Yiniang;Xue Yima;4.0
@@ -1423,7 +1425,6 @@ Liu Xianglian;Wang Xifeng;3.0
 Mo Yu;Jia Baoyu;3.0
 Zhou Rui;Zhang Caijiade;3.0
 You Erjie;Liu Xianglian;3.0
-Li Wan;Jia Zhu;3.0
 Wang Ziteng;Xi Ren;3.0
 Li Wan;Wang Ren;3.0
 Wang Xin;Wang Xifeng;3.0
@@ -1499,6 +1500,7 @@ Ping Er;Zhao Mama;3.0
 Wang Xifeng;Cui Lv;3.0
 Bo Li;Jia Zheng;3.0
 Wang Ren;Jia Huan;3.0
+Cui Lv;Xue Baochai;3.0
 Jia Baoyu;Ling Guan;3.0
 Bao Guan;Yu Guan;3.0
 Xue Pan;Lai Da;3.0
@@ -1562,7 +1564,6 @@ Zhou Yiniang;Jia Tanchun;3.0
 Zhi Neng;Jia Zhen;3.0
 Kui Guan;Xue Baoqin;3.0
 Qin Keqing;Jia Zheng;3.0
-Li Wan;Lai Wang;3.0
 Cai Xia;Xue Baochai;3.0
 Qin Zhong;Jia She;3.0
 Cai Xia;Li Wan;3.0
@@ -1717,6 +1718,7 @@ Ru Hua;Cui Mo;3.0
 Jia Yingchun;She Yue;3.0
 Jia Yuanchun;Jia Rong;3.0
 Wang Furen;Jia Jing;3.0
+Li Wan;Li Gui;3.0
 Cai Xia;Xi Ren;3.0
 Bao Zhu;Wang Xifeng;3.0
 Shi Taijun;Qi San;3.0
@@ -1751,6 +1753,7 @@ Jia Zhen;Xing Dequan;3.0
 Chun Yan;Liu Jiade;3.0
 Ying Er;Jia Huan;3.0
 Ping Er;Zhang Caijiade;3.0
+Zhang Caijiade;Li Wan;3.0
 Zhou Ruijiade;Qing Wen;3.0
 Ru Hua;Lin Daiyu;3.0
 Xiao Hong;Jia Zhen;3.0
@@ -1987,7 +1990,6 @@ Jing Xu;Jia Zhen;2.0
 Hu Po;Qiu Wen;2.0
 Xue Ke;Jia Xichun;2.0
 Chun Xian;Lin Daiyu;2.0
-Cui Lv;Xue Baochai;2.0
 Yu Lu;You Erjie;2.0
 Li Wen;She Yue;2.0
 Xing Furen;Bao Erjiade;2.0
@@ -2484,7 +2486,6 @@ Li Wan;Liu Xianglian;2.0
 Dai Shu;Cui Mo;2.0
 Wu Xindeng;Jia Lian;2.0
 Zhou Yiniang;Jia Yingchun;2.0
-Li Wan;Li Gui;2.0
 Wang Ziteng;Xue Baoqin;2.0
 Wang Ziteng;Jia Huan;2.0
 Bo Li;Yuan Yang;2.0
@@ -2542,7 +2543,6 @@ Tong Xi;Xue Yima;2.0
 Ping Er;Cai Ping;2.0
 Hu Po;Zhao Yiniang;2.0
 Jia Ling;Xing Furen;2.0
-Zhang Caijiade;Li Wan;2.0
 Hu Po;Jin Chuan;2.0
 Xie Luan;Jia Lian;2.0
 Lin Daiyu;Jiang Yuhan;2.0
@@ -2755,7 +2755,6 @@ Cai Ping;Lin Zhixiao;1.0
 Lin Daiyu;Jia Zhi;1.0
 Jia Cong;Jia Rongzhiqi;1.0
 Cai Xia;Lai Da;1.0
-Lv Er;Xi Ren;1.0
 Jia Zhi;Jia She;1.0
 Zhang Daoshi;Jia Zheng;1.0
 Zhou Ruijiade;Si Er;1.0
@@ -3150,7 +3149,6 @@ Jia Chang;Jia Heng;1.0
 Xia Nainai;Jia Huan;1.0
 Chun Xian;Wang Xifeng;1.0
 Cui Mo;Xing Furen;1.0
-Lv Er;Xue Baochai;1.0
 Jia Hui;Jia Yingchun;1.0
 Qin Zhong;Jia Jing;1.0
 Liu Fang;Qiu Liang;1.0
@@ -4485,7 +4483,7 @@ Wen Guan;Kui Guan;1.0
 Wang Ren;Xue Ke;1.0
 Ou Guan;Jia Yingchun;1.0
 Jia Zhu;Jia She;1.0
-Shi Xiangyun;Lv Er;1.0
+Li Wan;Lin Ruhai;1.0
 Jia Chen;Jia Qiang;1.0
 Tian Wensheng;Jia Baoyu;1.0
 Lou Shi;Jia Yun;1.0
@@ -4607,7 +4605,6 @@ Guai Zi;Wang Furen;1.0
 Niu Jizong;Chen Yi;1.0
 Feng Ziying;Wang Furen;1.0
 Shi Xiangyun;Jia Chang;1.0
-Lv Er;Jia Baoyu;1.0
 Shi Taijun;Jia Zhen;1.0
 Jia Dun;Jia Zhen;1.0
 Jia Fang;Jia Zao;1.0
@@ -4736,7 +4733,6 @@ Shi Taijun;Xiao Luo;1.0
 Zhou Ruijiade;Cai Ping;1.0
 Chun Xian;Jin Chuan;1.0
 You Laoniang;Jia She;1.0
-Lin Daiyu;Lv Er;1.0
 Niu Qing;Chen Yi;1.0
 Xue Baochai;Jia Ling;1.0
 Zhi Shan;Qin Zhong;1.0
